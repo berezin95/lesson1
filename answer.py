@@ -11,4 +11,4 @@ def get_answer(question, answers=answers):
 
 question1 = input("Something: ")
 result = get_answer(question1, answers)
-print(result)
+print(result)        
