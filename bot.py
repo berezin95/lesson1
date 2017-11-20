@@ -14,6 +14,8 @@ def greet_user(bot, update):
 Понимаю только команду {} 
     """.format(update.message.chat.first_name, '/start')
 
+    logging.info('User {} pressed /start'.format(update.message.chat.username))
+
     update.message.reply_text(mytext)
 
     print("Вызван")
